@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">WasteScanner</string>
+    <string name="home">Titulinis</string>
+    <string name="products">Produkto forma</string>
+    <string name="scanner">Skenavimas</string>
+    <string name="settings">Nustatymai</string>
+    <string name="username">Slapyvardis</string>
+    <string name="email_domain_com">vardas@pastas.com</string>
+    <string name="nav_drawer_open">Atidaryti navigacijos meniu</string>
+    <string name="nav_drawer_close">Uždaryti navigacijos meniu</string>
+    <string name="view_products">Peržiūrėti produktus</string>
+    <string name="scan_barcode">Nuskaityti brūkšninį kodą</string>
+    <string name="about">Apie</string>
+    <string name="about1">
+        Tai yra modulinio kurso „P175B156 Išmaniųjų įrenginių programavimas“ projektinis darbas,
+        kuris įkvėptas "Produktų vystymo projekto" modulio tematikos "Atliekų mažinimo paramos sistema".\n\n
+        XXI amžiuje aplinkos tarša ir didelis atliekų kiekis yra didžiulė problema. Todėl reikalinga efektyvi paramos sistema atliekų mažinimui, kuri padėtų spręsti dabartinę situaciją, keistų visuomenės požiūrį ir skatintų gerus įpročius.\n\n
+        Šios programos tikslas yra išplėsti parduotuvių jau egzistuojančias lojalumo kortelės funkcijas, pridedant produktų atliekų sekimo funkciją. Programa yra prototipas, skirtas įrodyti funkcionalumą.\n\n
+        Programos funkcijos:\n
+        - Vartotojas gali nuskaityti produktų brūkšninius kodus, ir jei jie jau yra duomenų bazėje, pridėti atliekų įrašą į nuotolinę duomenų bazę.\n
+        - Vartotojas gali pridėti neegzistuojančių produktų brūkšninius kodus (kurtas demonstravimo tikslais, kadangi tai bus prototipas. Realioje situacijoje parduotuvės pasirūpintų šiuo darbu).\n
+        - Produktai yra išsaugomi nuotolinėje duomenų bazėje.\n
+        - Vartotojas gali pamatyti visų produktų sąrašą.\n
+
+        Papildomos programos funkcijos:
+        - Vartotojas gali prisijungti su asmenine „Google“ paskyra. \n
+        - Atliekų įrašai yra išsaugomi nuotolinėje duomenų bazėje.\n
+        - Vartotojas gali pamatyti visų atliekų įrašų sąrašą.\n
+
+    </string>
+    <string name="scanner_camera_perms">
+        Nutaikykite barkodą į kamerą.\n
+        <b>(PASTABA: reikia kameros teisių ir prieigą prie duomenų bazės turi tik prisijungęs vartotojas)</b>
+    </string>
+    <string name="create_product">Kurti produktą</string>
+    <string name="product_name">Produkto pavadinimas</string>
+    <string name="waste_types">Atliekų rūšys</string>
+    <string name="product_description">Produkto aprašymas</string>
+    <string name="id">ID</string>
+    <string name="sign_in_with_google">Prisijunkite su „Google“ paskyra</string>
+    <string name="web_client_id">890012292541-51q480fgrljqm4nj0enrsehb34te1ib2.apps.googleusercontent.com</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="login">Prisijungti</string>
+    <string name="menu">Meniu</string>
+    <string name="scan_bar_code">Skenavimo kodas</string>
+    <string name="title_activity_scanner">Skenavimas</string>
+    <string name="next">Kitas</string>
+    <string name="previous">Ankstesnis</string>
+    <string name="product_s_name">Produkto pavadinimas</string>
+    <string name="waste_type">Atliekos tipas</string>
+    <string name="weight_kg">Pakuotės svoris(kg)</string>
+    <string name="description">Aprašymas (gamintojas, produkto svoris)</string>
+    <string name="wasterecord">Atliekos įrašas</string>
+    <string name="purchase_information">Pirkimo informacija (pvz. parduotuvė)</string>
+    <string name="quantity">Kiekis</string>
+    <string name="create_wasterecord">Sukurti atliekų įrašą</string>
+    <string name="product_list">Produktų sąrašas</string>
+    <string name="count">Kiekis</string>
+    <string name="wasterecord_name">Atliekų įrašo pavadinimas</string>
+    <string name="product_info">Produkto informacija</string>
+    <string name="wasterecord_list">Atliekų įrašų sąrašas</string>
+
+</resources>

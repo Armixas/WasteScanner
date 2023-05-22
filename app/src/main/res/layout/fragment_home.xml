@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_theme_light_onPrimary">
+
+
+    <ImageView
+        android:id="@+id/greensteps_logo_img"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintDimensionRatio="19:10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/greensteps_logo" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/home_barcode_btn"
+        android:layout_width="328dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="248dp"
+        android:text="@string/scan_barcode"
+        android:textSize="18sp"
+        app:backgroundTint="@color/seed"
+        app:cornerRadius="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/greensteps_logo_img" />
+</androidx.constraintlayout.widget.ConstraintLayout>

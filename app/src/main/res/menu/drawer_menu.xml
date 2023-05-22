@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="@string/login">
+        <menu>
+            <item
+                android:id="@+id/menu_google_sign_in"
+                android:icon="@drawable/ic_google_24"
+                android:title="@string/sign_in_with_google" />
+        </menu>
+    </item>
+    <item android:title="@string/menu">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_home"
+                    android:icon="@drawable/ic_home_24"
+                    android:title="@string/home" />
+                <item
+                    android:id="@+id/nav_products"
+                    android:icon="@drawable/ic_products_24"
+                    android:title="@string/product_list" />
+                <item
+                    android:id="@+id/nav_wasterecords"
+                    android:icon="@drawable/ic_products_24"
+                    android:title="@string/wasterecord_list" />
+                <item
+                    android:id="@+id/nav_scanner"
+                    android:icon="@drawable/ic_scanner_24"
+                    android:title="@string/scanner" />
+            </group>
+        </menu>
+    </item>
+  <!--  <item android:title="@string/settings">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings_24"
+                android:title="@string/settings" />
+        </menu>
+    </item>-->
+    <item android:title="@string/about">
+        <menu>
+            <item
+                android:id="@+id/nav_aboutus"
+                android:icon="@drawable/ic_aboutus_24"
+                android:title="@string/about" />
+        </menu>
+    </item>
+</menu>
